@@ -36,13 +36,13 @@ function About() {
                         <br /><br />
                         This site is built from scratch in ReactJS. MaterialUI provides a lot of the styling components.
                         <br /><br />
-                        For hiring inqueries or to take a look at my resume, reach out to me <b>jonahfduffin@gmail.com</b>.
+                        For hiring inqueries or to take a look at my resume, reach out to me at <b>jonahfduffin@gmail.com</b>.
                     </Typography>
                 </Box>
             </Grid>
             <Grid item xs='auto'>
                 <Box sx={{width: 450, minHeight: '415px', p: "10px", borderRadius: "20px" }} bgcolor="lightgray" alignItems="center" justifyContent="center">
-                    <Typography variant="h5" sx={{ fontFamily: "'Lora', serif;", pb: "15px"}}>Core Competencies</Typography>
+                    <Typography variant="h5" sx={{ fontFamily: "'Lora', serif;", pb: "15px"}}>My Core Competencies</Typography>
                     <Typography variant="body1">
                         JavaScript
                         <ul>
