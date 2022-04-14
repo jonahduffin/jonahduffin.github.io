@@ -1,15 +1,9 @@
 import React from 'react';
 import {
-    Button,
     Typography,
     Grid,
-    TextField,
     Box,
-    Link,
-    Select,
-    MenuItem,
-    InputLabel,
-    FormControl
+    Link
   } from '@mui/material';
 
 function About() {

@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import {
-  Button,
   Typography,
   Grid,
   TextField,
@@ -60,13 +59,6 @@ function SortHome() {
     }
     
     return (
-    // <div style={{paddingLeft: "25px"}}>
-    //   <Typography variant="h1" sx={{ fontFamily: "'Lora', serif;", pb: "15px"}}>Sorting Demo</Typography>
-    //   <Typography variant="h4" sx={{ fontFamily: "'Lora', serif;", pb: "15px"}}>Home</Typography>
-    //   <Box sx={{width: 500, height: 300, p: "10px", borderRadius: "20px" }} bgcolor="lightgray" alignItems="center" justifyContent="center">
-    //     <Sort />
-    //   </Box>
-    // </div>
     <Grid container sx={{height: "80%", width: "100%", pl: "25px", pr: "25px"}} alignItems="flex-start" justifyContent="flex-start" spacing={1}>
         <Grid item xs={8}><Typography variant="h1" sx={{ fontFamily: "'Lora', serif;", pb: "15px"}}>Sorting Demo</Typography></Grid>
         <Grid item xs={4}>
